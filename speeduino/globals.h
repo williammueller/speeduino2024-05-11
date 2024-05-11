@@ -40,10 +40,10 @@
   #define CORE_AVR
   #define BOARD_H "board_avr2560.h"
   #ifndef INJ_CHANNELS
-    #define INJ_CHANNELS 4
+    #define INJ_CHANNELS 6
   #endif
   #ifndef IGN_CHANNELS
-    #define IGN_CHANNELS 5
+    #define IGN_CHANNELS 3
   #endif
 
   #if defined(__AVR_ATmega2561__)
